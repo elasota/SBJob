@@ -70,7 +70,7 @@ namespace SiegeBreaker
             workerThread.Run();
         }
 
-	    public SBThreadPool(int numThreads)
+        public SBThreadPool(int numThreads)
         {
             this.NumThreads = numThreads;
             m_jobs = new Queue();
